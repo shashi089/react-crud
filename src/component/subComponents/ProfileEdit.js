@@ -17,7 +17,7 @@ function ProfileEdit(props) {
       props.setCity(value);
     }
     if (name === "state") {
-      props.setState(value);
+      props.setStatename(value);
     }
   };
 
@@ -80,7 +80,7 @@ function ProfileEdit(props) {
               <input
                 className="form-control"
                 type="text"
-                placeholder="state"
+                placeholder="State"
                 value={props.state}
                 name="state"
                 onChange={handleChange}

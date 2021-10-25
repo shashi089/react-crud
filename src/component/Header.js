@@ -17,7 +17,7 @@ function Header() {
           className="navlink brand mr-4 ml-auto"
           activeClassName="activenavlink"
         >
-          <h4>Users</h4>
+          <h4>Home</h4>
         </NavLink>
 
         <NavLink

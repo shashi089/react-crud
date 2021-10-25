@@ -10,7 +10,7 @@ function CreateUser() {
   const [country, setCountry] = useState("");
   const [company, setCompany] = useState("");
   const [city, setCity] = useState("");
-  const [state, setstate] = useState("");
+  const [state, setStatename] = useState("");
   const context = useContext(Context);
   const [addeduser, setAddeduser] = useState(true);
 
@@ -59,7 +59,7 @@ function CreateUser() {
               setEmail={setEmail}
               setCompany={setCompany}
               setCountry={setCountry}
-              setstate={setstate}
+              setStatename={setStatename}
               setCity={setCity}
               handleSubmit={handleSubmit}
             />

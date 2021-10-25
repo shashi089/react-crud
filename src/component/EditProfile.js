@@ -9,7 +9,7 @@ export default function EditProfile({ match }) {
   const [company, setCompany] = useState("");
   const [country, setCountry] = useState("");
   const [city, setCity] = useState("");
-  const [state, setstate] = useState("");
+  const [state, setStatename] = useState("");
   const context = useContext(Context);
   const [profileNotedited, setProfileNotEdited] = useState(true);
 
@@ -29,7 +29,7 @@ export default function EditProfile({ match }) {
       setCompany(user.company);
       setCountry(user.country);
       setCity(user.city);
-      setstate(user.state);
+      setStatename(user.state);
     });
   };
 
@@ -83,7 +83,7 @@ export default function EditProfile({ match }) {
               setEmail={setEmail}
               setCompany={setCompany}
               setCountry={setCountry}
-              setstate={setstate}
+              setStatename={setStatename}
               setCity={setCity}
               handleSubmit={handleSubmit}
             />
